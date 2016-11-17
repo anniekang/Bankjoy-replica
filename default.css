@@ -1,0 +1,49 @@
+
+body{
+  margin:0px;
+}
+
+#block-one{
+  background-image: URL("https://bankjoy.com/assets/images/backgrounds/background.jpg");
+  height:700px;
+  background-size: cover;
+}
+
+#background-overlay{
+  position:absolute;
+  top:0;
+  background-color:rgba(45,63,91,0.8);
+  width:100%;
+  height: inherit;
+}
+
+.container{
+  position: relative;
+  top: 0;
+  width: 60%;
+  margin:auto;
+}
+
+#home-logo{
+  position: absolute;
+  top: 50px;
+  text-align: center;
+  width:100%;
+}
+
+#home-logo-img{
+  height:35px;
+  margin:auto;
+}
+
+h1{
+  position: absolute;
+  color: white;
+  top: 100px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  font-weight:100;
+  margin-top: 0px;
+}
