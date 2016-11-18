@@ -5,21 +5,21 @@ body{
   font-weight: 200;
 }
 
-#block-one{
+#block{
   background-image: URL("https://bankjoy.com/assets/images/backgrounds/background.jpg");
-  height:700px;
+  height:100vh;
   background-size: cover;
 }
 
-#background-overlay{
+#overlay{
   position:absolute;
   top:0;
   width:100%;
   height: inherit;
-  background-color:rgba(45,63,91,0.8);
+  background-color:rgba(56,64,91,.85);
 }
 
-#contact-header{
+#header{
   position: absolute;
   margin: 3%;
   right: 10px;
@@ -28,7 +28,7 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 200;
   font-size: 9px;
-  letter-spacing: 0.025em;
+  letter-spacing: .025em;
 }
 
 a:link{
@@ -41,7 +41,7 @@ a:hover{
   text-decoration: none;
 }
 
-#phone-contact{
+#phone{
   margin-right: 5px;
 }
 
@@ -52,27 +52,77 @@ a:hover{
   margin:auto;
 }
 
-#home-logo{
+#home{
   position: absolute;
-  top: 50px;
+  top: 100px;
   width:100%;
   text-align: center;
 }
 
-#home-logo-img{
-  height:35px;
+#logo{
+  height:70px;
   margin:auto;
 }
 
 h1{
   position: absolute;
   margin-top: 0px;
-  top: 100px;
+  top: 210px;
   width: 100%;
   text-align: center;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 200;
-  font-size: 28px;
-  letter-spacing: 0.03em;
+  font-size: 55px;
+  letter-spacing: .03em;
+}
+
+#schedule{
+  position: absolute;
+  margin-top: 0px;
+  top: 310px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 15px;
+  letter-spacing: .02em;
+}
+
+#button{
+  position: absolute;
+  margin-top: 0px;
+  top: 400px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  letter-spacing: .04em;
+}
+
+#demo{
+  color:white;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  background-color:rgb(82,114,217);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#demo:hover{
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 20px;
 }
