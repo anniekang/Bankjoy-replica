@@ -126,3 +126,57 @@ h1{
   padding-right: 35px;
   font-size: 20px;
 }
+
+#phones{
+  position: relative;
+  margin: auto;
+  top: 550px;
+  width: 800px;
+  height: 600px;
+}
+
+#left{
+  position: absolute;
+  height: 631px;
+  width: 310px;
+}
+
+#right{
+  position: absolute;
+  right: 0;
+  height: 631px;
+  width: 310px;
+}
+
+#center{
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  top: -50px;
+  height: 672px;
+  width: 330px;
+  background-color: gradient;
+  z-index: 5;
+}
+
+#shadow-left{
+  position: absolute;
+  padding-right: 40px;
+  padding-left: 40px;
+  right: 45%;
+  height: 600px;
+  width: 175px;
+  background: linear-gradient(to right,rgba(40,44,52,0),rgba(40,44,52,1));
+  z-index: 3;
+}
+
+#shadow-right{
+  position: absolute;
+  padding-right: 40px;
+  padding-left: 40px;
+  left: 45%;
+  height: 600px;
+  width: 175px;
+  background: linear-gradient(to left,rgba(40,44,52,0),rgba(40,44,52,1));
+  z-index: 3;
+}
