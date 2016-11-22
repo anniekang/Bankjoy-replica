@@ -1,25 +1,25 @@
 
-body{
-  margin:0px;
+body {
+  margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 200;
 }
 
-#block{
-  background-image: URL("https://bankjoy.com/assets/images/backgrounds/background.jpg");
-  height:100vh;
+#block {
+  background-image: url("https://bankjoy.com/assets/images/backgrounds/background.jpg");
+  height: 100vh;
   background-size: cover;
 }
 
-#overlay{
-  position:absolute;
-  top:0;
-  width:100%;
+#overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
   height: inherit;
-  background-color:rgba(56,64,91,.85);
+  background-color: rgba(56,64,91,.85);
 }
 
-#header{
+#header {
   position: absolute;
   margin: 3%;
   right: 10px;
@@ -31,42 +31,42 @@ body{
   letter-spacing: .025em;
 }
 
-a:link{
-  color:white;
+a:link {
+  color: white;
   text-decoration: none;
 }
 
-a:hover{
-  color:rgb(82,114,217);
+a:hover {
+  color: rgb(82,114,217);
   text-decoration: none;
 }
 
-#phone{
+#phone {
   margin-right: 5px;
 }
 
-.container{
+.container {
   position: relative;
   top: 0;
   width: 80%;
-  margin:auto;
+  margin: auto;
 }
 
-#home{
+#home {
   position: absolute;
   top: 100px;
-  width:100%;
+  width: 100%;
   text-align: center;
 }
 
-#logo{
-  height:70px;
-  margin:auto;
+#logo {
+  height: 70px;
+  margin: auto;
 }
 
-h1{
+h1 {
   position: absolute;
-  margin-top: 0px;
+  margin-top: 0;
   top: 210px;
   width: 100%;
   text-align: center;
@@ -77,9 +77,9 @@ h1{
   letter-spacing: .03em;
 }
 
-#schedule{
+#schedule {
   position: absolute;
-  margin-top: 0px;
+  margin-top: 0;
   top: 310px;
   width: 100%;
   text-align: center;
@@ -91,9 +91,9 @@ h1{
   letter-spacing: .02em;
 }
 
-#button{
+#button {
   position: absolute;
-  margin-top: 0px;
+  margin-top: 0;
   top: 400px;
   width: 100%;
   text-align: center;
@@ -102,8 +102,8 @@ h1{
   letter-spacing: .04em;
 }
 
-#demo{
-  color:white;
+#demo {
+  color: white;
   text-decoration: none;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -112,14 +112,14 @@ h1{
   text-align: center;
   align-items: center;
   font-size: 15px;
-  background-color:rgb(82,114,217);
+  background-color: rgb(82,114,217);
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
 
-#demo:hover{
+#demo:hover {
   padding-top: 18px;
   padding-bottom: 18px;
   padding-left: 35px;
@@ -127,7 +127,7 @@ h1{
   font-size: 20px;
 }
 
-#phones{
+#phones {
   position: relative;
   margin: auto;
   top: 550px;
@@ -135,20 +135,20 @@ h1{
   height: 600px;
 }
 
-#left{
+#left {
   position: absolute;
   height: 631px;
   width: 310px;
 }
 
-#right{
+#right {
   position: absolute;
   right: 0;
   height: 631px;
   width: 310px;
 }
 
-#center{
+#center {
   position: absolute;
   right: 50%;
   transform: translateX(50%);
@@ -159,7 +159,7 @@ h1{
   z-index: 5;
 }
 
-#shadow-left{
+#shadow-left {
   position: absolute;
   padding-right: 40px;
   padding-left: 40px;
@@ -170,7 +170,7 @@ h1{
   z-index: 3;
 }
 
-#shadow-right{
+#shadow-right {
   position: absolute;
   padding-right: 40px;
   padding-left: 40px;
