@@ -23,6 +23,7 @@ body {
 @media (min-width: 1024px) {
   #block {
     min-height: 720px;
+    overflow: hidden;
   }
 }
 
