@@ -1,0 +1,30 @@
+{
+  "name": "Bankjoy-replica",
+  "version": "1.0.0",
+  "description": "Replicate Bankjoy's webpage",
+  "engines": {
+   "node": "6.9.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "watch": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anniekang/Bankjoy-replica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anniekang/Bankjoy-replica/issues"
+  },
+  "homepage": "https://github.com/anniekang/Bankjoy-replica#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
